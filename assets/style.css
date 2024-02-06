@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+    color: #424242;
+}
+
+.navbarWrapper {
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarLinksItem {
+    color: #666;
+    font-size: .9rem;
+    transition: color .3s;
+    padding: 20px;
+}
+
+.navbarLinksItem:hover {
+    color: #387ed1;
+    cursor: pointer;
+}
+
+.logo {
+    width: 150px;
+    max-height: 150px;
+}
+
+.landingPageContent {
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.centerImage {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.centerImage>img {
+    max-height: 45vh;
+}
+
+.introWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.introTitle {
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.introDescription {
+    text-align: center;
+    font-size: 1.25rem;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signupBtnWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.signupBtn {
+    background-color: #387ed1;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+}
+
+.signupBtn>a {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.signupBtn:hover {
+    background-color: black;
+}
